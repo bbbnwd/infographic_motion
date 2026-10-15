@@ -1,0 +1,231 @@
+* {
+  box-sizing: border-box;
+}
+.ambient {
+  position: absolute;
+  width: 1100px;
+  height: 1100px;
+  border: 1px solid #454c652b;
+  border-radius: 50%;
+  right: -630px;
+  top: -660px;
+  box-shadow:
+    0 0 0 130px #454c6508,
+    0 0 0 260px #454c6506;
+}
+.header {
+  position: absolute;
+  left: 120px;
+  right: 120px;
+  top: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #f5f6fc;
+  font-size: 32px;
+  letter-spacing: 1px;
+  z-index: 10;
+}
+.tiny-brand {
+  font-size: 25px;
+  letter-spacing: 3px;
+  color: #a9b0c9;
+}
+.dash {
+  display: inline-block;
+  width: 44px;
+  height: 3px;
+  background: #454c65;
+  vertical-align: middle;
+  margin: 0 20px;
+}
+.footer-mark {
+  position: absolute;
+  bottom: 90px;
+  right: 120px;
+  font-size: 19px;
+  letter-spacing: 3px;
+  color: #8991ac;
+}
+.intro {
+  position: absolute;
+  inset: 155px 120px auto;
+  text-align: center;
+}
+.intro-orbit {
+  position: absolute;
+  top: 470px;
+  left: 960px;
+  width: 1450px;
+  height: 680px;
+  border: 2px solid #454c6570;
+  border-radius: 50%;
+}
+.sub {
+  font-size: 44px;
+  color: #d1d5e4;
+}
+.bridge {
+  position: absolute;
+  height: 14px;
+  border-radius: 20px;
+  left: 50%;
+  bottom: 160px;
+  transform: translateX(-50%);
+  box-shadow: 0 3px 0 #ffffff22 inset;
+}
+.proposal,
+.plate {
+  width: 132px;
+  height: 174px;
+  background: #282e48;
+  border: 2px solid #454c65;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow:
+    0 14px 24px #10142830,
+    0 2px 0 #ffffff10 inset;
+}
+.plate {
+  background: #30374f;
+  border-radius: 28px;
+  padding: 23px;
+  box-shadow:
+    0 12px 0 #11162b55,
+    0 2px 0 #ffffff25 inset;
+}
+.paper-line {
+  height: 5px;
+  border-radius: 5px;
+  background: #778099;
+  width: 100%;
+  margin: 10px 0;
+}
+.paper-line.short {
+  width: 68%;
+}
+.bottom-note {
+  position: absolute;
+  left: 120px;
+  right: 120px;
+  bottom: 110px;
+  text-align: center;
+  color: #adb5cc;
+  font-size: 40px;
+}
+.group-grid {
+  position: absolute;
+  left: 170px;
+  right: 170px;
+  top: 320px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+}
+.group-card {
+  height: 236px;
+  border-radius: 118px;
+  background: #2b314b;
+  border: 2px solid #454c65;
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  padding: 25px 34px;
+  box-shadow:
+    0 10px 24px #0f142020,
+    inset 0 2px #ffffff0d;
+}
+.group-symbol {
+  width: 110px;
+  height: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.fields {
+  position: absolute;
+  left: 120px;
+  right: 120px;
+  top: 290px;
+  display: flex;
+}
+.field {
+  width: 33.333%;
+  text-align: center;
+  border-right: 2px solid #454c6566;
+  padding: 0 35px;
+}
+.field:last-child {
+  border: 0;
+}
+.field-graphic {
+  width: 355px;
+  height: 355px;
+  margin: auto;
+}
+.stage-label {
+  position: absolute;
+  top: 210px;
+  left: 120px;
+  right: 120px;
+  text-align: center;
+  font-size: 64px;
+}
+.eight-cards {
+  position: absolute;
+  top: 600px;
+  left: 240px;
+  right: 240px;
+  display: flex;
+  justify-content: space-between;
+}
+.four-plates {
+  position: absolute;
+  top: 610px;
+  left: 414px;
+  display: flex;
+  gap: 70px;
+}
+.capsule {
+  position: absolute;
+  left: 350px;
+  top: 260px;
+  width: 400px;
+  height: 460px;
+  border: 10px solid #63708e;
+  border-radius: 150px 150px 64px 64px;
+  background: linear-gradient(120deg, #454c6580, #252c46);
+  box-shadow:
+    inset 8px 5px 0 #ffffff0c,
+    14px 15px 0 #10152940;
+}
+.capsule-lid {
+  position: absolute;
+  top: 70px;
+  left: 15px;
+  right: 15px;
+  height: 16px;
+  border-radius: 10px;
+  background: linear-gradient(110deg, #008df0, #00e99a);
+}
+.capsule-window {
+  position: absolute;
+  top: 114px;
+  left: 45px;
+  width: 290px;
+  height: 240px;
+  border: 3px solid #8c9ab16b;
+  border-radius: 42px;
+  background: #1b203866;
+}
+.capsule-foot {
+  position: absolute;
+  bottom: 25px;
+  left: 85px;
+  right: 85px;
+  height: 14px;
+  border-radius: 20px;
+  background: #454c65;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "space-challenge-infographic",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "studio": "remotion studio src/index.ts --port=3001",
+    "render": "remotion render src/index.ts SpaceChallenge2026Infographic out/SpaceChallenge2026Infographic.mp4 --browser-executable=/usr/bin/chromium --concurrency=2 --muted",
+    "still": "remotion still src/index.ts SpaceChallenge2026Infographic",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.444",
+    "remotion": "4.0.444",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
+  },
+  "devDependencies": {
+    "typescript": "5.9.3",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3"
+  }
+}
