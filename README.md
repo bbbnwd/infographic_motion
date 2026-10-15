@@ -1,5 +1,12 @@
 # 2026 DRB Space Challenge 모션 인포그래픽
 
+## 한 장짜리 발표 장표
+
+- [장표 PNG 다운로드](https://github.com/bbbnwd/infographic_motion/blob/main/deliverables/SpaceChallenge2026Infographic-Static.png?raw=true)
+- 모션 없이 지원 규모, 참가자 구성, 연구 분야 6개와 실험 진행 과정을 한 화면에 정리한 이미지입니다.
+
+![2026 DRB Space Challenge 한 장짜리 장표](deliverables/SpaceChallenge2026Infographic-Static.png)
+
 ## 완성 영상 다운로드
 
 - [최종 MP4 다운로드 (4.2MB)](https://github.com/bbbnwd/infographic_motion/blob/main/deliverables/SpaceChallenge2026Infographic.mp4?raw=true)
